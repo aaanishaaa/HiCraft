@@ -3,10 +3,10 @@ import logo from '../assets/hicraft.png'
 
 const Navbar = () => {
     return (
-        <div className='flex justify-around items-center p-2 bg-gray-200'>
-            <img src={logo} alt="logo" className='w-[7em]'/>
+        <div className='flex justify-around items-center border-b-2'>
+            <img src={logo} alt="logo" className='w-[4em]'/>
             <div>
-                <ul className='flex justify-center space-x-4'>
+                <ul className='flex justify-center space-x-5'>
                     <li>Freelancing</li>
                     <li>Team</li>
                     <li>Offers</li>
@@ -14,8 +14,8 @@ const Navbar = () => {
                 </ul>
             </div>
             <div className='flex space-x-4'>
-                <button className='bg-blue-500 text-white px-4 py-2 rounded-lg'>Submit a Need</button>
-                <button className='bg-blue-500 text-white px-4 py-2 rounded-lg'>I'am a Freelancing</button>
+                <button>Submit a Need</button>
+                <button className='bg-black text-white px-4 py-2 '>I'm a Freelancing</button>
             </div>
         </div>
     )

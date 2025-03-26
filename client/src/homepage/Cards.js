@@ -2,7 +2,7 @@ import React from 'react';
 
 const Cards = ({ icon,title, value }) => {
     return (
-        <div className='border p-5 m-7 w-[15rem] flex'>
+        <div className='border p-5 m-7 w-[15rem] h-[8rem] flex'>
             <div>
             <img src={icon} alt='icon' className='w-20'/></div>
             <div className='p-5'>
