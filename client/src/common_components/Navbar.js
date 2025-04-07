@@ -9,7 +9,7 @@ const Navbar = () => {
                 <ul className='flex justify-center space-x-5'>
                     <li>Freelancing</li>
                     <li>Team</li>
-                    <li>Offers</li>
+                    <li>Get Offers</li>
                     <li>Contact Us</li>
                 </ul>
             </div>

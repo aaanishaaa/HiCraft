@@ -45,6 +45,7 @@ const Hero = () => {
         <Cards icon={icon3} title="Secure Payments" text="Secure payments" />
         <Cards icon={icon4} title="Secure Payments" text="Secure payments" />
       </div>
+      
     </div>
   );
 };
